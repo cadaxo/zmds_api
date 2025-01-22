@@ -3,12 +3,12 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DD01V>
-    <DOMNAME>ZMDS_ACTION_NAME</DOMNAME>
+    <DOMNAME>ZMDS_CHANGED_BY</DOMNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DATATYPE>CHAR</DATATYPE>
-    <LENG>000040</LENG>
-    <OUTPUTLEN>000040</OUTPUTLEN>
-    <DDTEXT>Cadaxo Managed Data Services: Object Name</DDTEXT>
+    <LENG>000012</LENG>
+    <OUTPUTLEN>000012</OUTPUTLEN>
+    <DDTEXT>Cadaxo Managed Data Services: Changed by</DDTEXT>
     <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD01V>
   </asx:values>

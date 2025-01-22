@@ -1,0 +1,12 @@
+CLASS ZCL_mds_api_ds_ydls DEFINITION INHERITING FROM ZCL_mds_api_ds_ddls
+  PUBLIC
+  CREATE PUBLIC .
+
+ENDCLASS.
+
+
+
+CLASS ZCL_mds_api_ds_ydls IMPLEMENTATION.
+
+
+ENDCLASS.
