@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMDS_VIBASFLD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>FDNAME</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Base field</DDTEXT>
+    <REPTEXT>Base field</REPTEXT>
+    <SCRTEXT_S>Base field</SCRTEXT_S>
+    <SCRTEXT_M>Base field</SCRTEXT_M>
+    <SCRTEXT_L>Base field</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>묩</LANGU>
+    <LANGU>뱋</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>基本字段</DDTEXT>
+     <REPTEXT>基本字段</REPTEXT>
+     <SCRTEXT_S>基本字段</SCRTEXT_S>
+     <SCRTEXT_M>基本字段</SCRTEXT_M>
+     <SCRTEXT_L>基本字段</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ฟิลด์ฐาน</DDTEXT>
+     <REPTEXT>ฟิลด์ฐาน</REPTEXT>
+     <SCRTEXT_S>ฟิลด์ฐาน</SCRTEXT_S>
+     <SCRTEXT_M>ฟิลด์ฐาน</SCRTEXT_M>
+     <SCRTEXT_L>ฟิลด์ฐาน</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>기본필드</DDTEXT>
+     <REPTEXT>기본필드</REPTEXT>
+     <SCRTEXT_S>기본필드</SCRTEXT_S>
+     <SCRTEXT_M>기본필드</SCRTEXT_M>
+     <SCRTEXT_L>기본필드</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Osn. polje</DDTEXT>
+     <REPTEXT>Osn. polje</REPTEXT>
+     <SCRTEXT_S>Osn. polje</SCRTEXT_S>
+     <SCRTEXT_M>Osn. polje</SCRTEXT_M>
+     <SCRTEXT_L>Osn. polje</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>שדה בסיס</DDTEXT>
+     <REPTEXT>שדה בסיס</REPTEXT>
+     <SCRTEXT_S>שדה בסיס</SCRTEXT_S>
+     <SCRTEXT_M>שדה בסיס</SCRTEXT_M>
+     <SCRTEXT_L>שדה בסיס</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Zákl.pole</DDTEXT>
+     <REPTEXT>Zákl.pole</REPTEXT>
+     <SCRTEXT_S>Zákl.pole</SCRTEXT_S>
+     <SCRTEXT_M>Zákl.pole</SCRTEXT_M>
+     <SCRTEXT_L>Zákl.pole</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Basisfeld</DDTEXT>
+     <REPTEXT>Basisfeld</REPTEXT>
+     <SCRTEXT_S>Basisfeld</SCRTEXT_S>
+     <SCRTEXT_M>Basisfeld</SCRTEXT_M>
+     <SCRTEXT_L>Basisfeld</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Zone base</DDTEXT>
+     <REPTEXT>Zone base</REPTEXT>
+     <SCRTEXT_S>Zone base</SCRTEXT_S>
+     <SCRTEXT_M>Zone base</SCRTEXT_M>
+     <SCRTEXT_L>Zone base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Bázismező</DDTEXT>
+     <REPTEXT>Bázismező</REPTEXT>
+     <SCRTEXT_S>Bázismező</SCRTEXT_S>
+     <SCRTEXT_M>Bázismező</SCRTEXT_M>
+     <SCRTEXT_L>Bázismező</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Cmp. base</DDTEXT>
+     <REPTEXT>Cmp. base</REPTEXT>
+     <SCRTEXT_S>Cmp. base</SCRTEXT_S>
+     <SCRTEXT_M>Cmp. base</SCRTEXT_M>
+     <SCRTEXT_L>Cmp. base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>基本項目</DDTEXT>
+     <REPTEXT>基本項目</REPTEXT>
+     <SCRTEXT_S>基本項目</SCRTEXT_S>
+     <SCRTEXT_M>基本項目</SCRTEXT_M>
+     <SCRTEXT_L>基本項目</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Pole podstawowe</DDTEXT>
+     <REPTEXT>Pole podstawowe</REPTEXT>
+     <SCRTEXT_S>Pole pod.</SCRTEXT_S>
+     <SCRTEXT_M>Pole podstawowe</SCRTEXT_M>
+     <SCRTEXT_L>Pole podstawowe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>基礎欄位</DDTEXT>
+     <REPTEXT>基礎欄位</REPTEXT>
+     <SCRTEXT_S>基礎欄位</SCRTEXT_S>
+     <SCRTEXT_M>基礎欄位</SCRTEXT_M>
+     <SCRTEXT_L>基礎欄位</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Basisveld</DDTEXT>
+     <REPTEXT>Basisveld</REPTEXT>
+     <SCRTEXT_S>Basisveld</SCRTEXT_S>
+     <SCRTEXT_M>Basisveld</SCRTEXT_M>
+     <SCRTEXT_L>Basisveld</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Campo base</DDTEXT>
+     <REPTEXT>Campo base</REPTEXT>
+     <SCRTEXT_S>Campo base</SCRTEXT_S>
+     <SCRTEXT_M>Campo base</SCRTEXT_M>
+     <SCRTEXT_L>Campo base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Zákl.pole</DDTEXT>
+     <REPTEXT>Zákl.pole</REPTEXT>
+     <SCRTEXT_S>Zákl.pole</SCRTEXT_S>
+     <SCRTEXT_M>Zákl.pole</SCRTEXT_M>
+     <SCRTEXT_L>Zákl.pole</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Базисное поле</DDTEXT>
+     <REPTEXT>Базисное поле</REPTEXT>
+     <SCRTEXT_S>БазисПоле</SCRTEXT_S>
+     <SCRTEXT_M>Базисное поле</SCRTEXT_M>
+     <SCRTEXT_L>Базисное поле</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Cpo.base</DDTEXT>
+     <REPTEXT>Cpo.base</REPTEXT>
+     <SCRTEXT_S>Cpo.base</SCRTEXT_S>
+     <SCRTEXT_M>Cpo.base</SCRTEXT_M>
+     <SCRTEXT_L>Cpo.base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>आधार फ़ील्ड</DDTEXT>
+     <REPTEXT>आधार फ़ील्ड</REPTEXT>
+     <SCRTEXT_S>आधार फ़ी.</SCRTEXT_S>
+     <SCRTEXT_M>आधार फ़ील्ड</SCRTEXT_M>
+     <SCRTEXT_L>आधार फ़ील्ड</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Негізгі өріс</DDTEXT>
+     <REPTEXT>Негізгі өріс</REPTEXT>
+     <SCRTEXT_S>НегӨріс</SCRTEXT_S>
+     <SCRTEXT_M>Негізгі өріс</SCRTEXT_M>
+     <SCRTEXT_L>Негізгі өріс</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>视图、锁定对象或匹配码对象的基础字段。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>视图字段或匹配码对象字段或锁定对象参数参考的基础表字段。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bázové pole view, objektu blokování nebo objektu match-kódu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Pole z bázové tabulky, k němuž se vztahuje pole view resp. pole objektu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>match-kódu nebo parametr objektu blokování.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Basisfeld eines Views, eines Sperrobjekts oder eines Matchcode-Objekts.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Feld aus der Basistabelle, auf das sich das Viewfeld bzw. das Feld</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eines Matchcode-Objekts oder der Parameter eines Sperrobjekts bezieht.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Base field of a view, lock object or matchcode object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Field of the base table to which the view field or field of a matchcode</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object or parameter of a lock object refers.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vue de base d&apos;une vue, d&apos;un objet de blocage ou de matchcode.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zone de la table de base à laquelle renvoie la zone de vue, la zone</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;un objet de matchcode ou le paramètre d&apos;un objet de blocage.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campo base della view, dell&apos;oggetto di blocco o dell&apos;oggetto matchcode.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campo della tabella di base a cui fanno riferimento il campo view, il</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>campo dell&apos;oggetto matchcode o il parametro dell&apos;oggetto di blocco.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>ビュー、ロックオブジェクト、またはマッチコードオブジェクトの基本項目</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>ビュー項目、マッチコードオブジェクトの項目、またはロックオブジェクトのパ</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ラメータが参照している基本テーブルの項目</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campo base de uma visão, de um objeto de bloqueio ou de um objeto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>matchcode.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campo da tabela de base, ao qual fazem referência o campo de visão ou o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>campo de um objeto matchcode ou o parâmetro de um objeto de bloqueio.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASFLD</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASFLD</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campo básico de una vista, de un objeto de bloqueo o de un objeto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>matchcode.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campo de la tabla básica a lo cual hace referencia el campo de vista o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>el campo de un objeto matchcode o el parámetro de un objeto de bloqueo.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

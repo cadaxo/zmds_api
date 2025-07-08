@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZMDS_VIBASTAB</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>AS4TAB</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Base table of a view</DDTEXT>
+    <REPTEXT>Basis Table</REPTEXT>
+    <SCRTEXT_S>Base tab.</SCRTEXT_S>
+    <SCRTEXT_M>Basis Table</SCRTEXT_M>
+    <SCRTEXT_L>Basis Table</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>묩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>视图的基本表</DDTEXT>
+     <REPTEXT>基础表</REPTEXT>
+     <SCRTEXT_S>基本表格</SCRTEXT_S>
+     <SCRTEXT_M>基础表</SCRTEXT_M>
+     <SCRTEXT_L>基础表</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>뷰기본테이블</DDTEXT>
+     <REPTEXT>기본테이블</REPTEXT>
+     <SCRTEXT_S>기본테이블</SCRTEXT_S>
+     <SCRTEXT_M>기본테이블</SCRTEXT_M>
+     <SCRTEXT_L>기본테이블</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>טבלת בסיס</DDTEXT>
+     <REPTEXT>טבלת בסיס</REPTEXT>
+     <SCRTEXT_S>טבלת בסיס</SCRTEXT_S>
+     <SCRTEXT_M>טבלת בסיס</SCRTEXT_M>
+     <SCRTEXT_L>טבלת בסיס</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Bázová tabulka view</DDTEXT>
+     <REPTEXT>Bázová tabulka</REPTEXT>
+     <SCRTEXT_S>Báz.tab.</SCRTEXT_S>
+     <SCRTEXT_M>Bázová tabulka</SCRTEXT_M>
+     <SCRTEXT_L>Bázová tabulka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Basistabelle eines Views</DDTEXT>
+     <REPTEXT>Basistabelle</REPTEXT>
+     <SCRTEXT_S>Basistab.</SCRTEXT_S>
+     <SCRTEXT_M>Basistabelle</SCRTEXT_M>
+     <SCRTEXT_L>Basistabelle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Table de base d&apos;une vue</DDTEXT>
+     <REPTEXT>Table de base</REPTEXT>
+     <SCRTEXT_S>Table base</SCRTEXT_S>
+     <SCRTEXT_M>Table de base</SCRTEXT_M>
+     <SCRTEXT_L>Table de base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Egy nézet bázistáblája</DDTEXT>
+     <REPTEXT>Bázistábla</REPTEXT>
+     <SCRTEXT_S>Bázistábla</SCRTEXT_S>
+     <SCRTEXT_M>Bázistábla</SCRTEXT_M>
+     <SCRTEXT_L>Bázistábla</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tabella di base della view</DDTEXT>
+     <REPTEXT>Tabella di base</REPTEXT>
+     <SCRTEXT_S>Tab. base</SCRTEXT_S>
+     <SCRTEXT_M>Tabella di base</SCRTEXT_M>
+     <SCRTEXT_L>Tabella di base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>ビューの基本テーブル</DDTEXT>
+     <REPTEXT>基本テーブル</REPTEXT>
+     <SCRTEXT_S>Base tab.</SCRTEXT_S>
+     <SCRTEXT_M>基本テーブル</SCRTEXT_M>
+     <SCRTEXT_L>基本テーブル</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tabela bazowa wglądu</DDTEXT>
+     <REPTEXT>Tabela bazowa</REPTEXT>
+     <SCRTEXT_S>Tab.bazowa</SCRTEXT_S>
+     <SCRTEXT_M>Tabela bazowa</SCRTEXT_M>
+     <SCRTEXT_L>Tabela bazowa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>檢視的基礎表格</DDTEXT>
+     <REPTEXT>基礎表格</REPTEXT>
+     <SCRTEXT_S>基本表格</SCRTEXT_S>
+     <SCRTEXT_M>基礎表格</SCRTEXT_M>
+     <SCRTEXT_L>基礎表格</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Basistabel van een view</DDTEXT>
+     <REPTEXT>Basistabel</REPTEXT>
+     <SCRTEXT_S>Basistab.</SCRTEXT_S>
+     <SCRTEXT_M>Basistabel</SCRTEXT_M>
+     <SCRTEXT_L>Basistabel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tabela de base de uma visão</DDTEXT>
+     <REPTEXT>Tabela de base</REPTEXT>
+     <SCRTEXT_S>Tab.base</SCRTEXT_S>
+     <SCRTEXT_M>Tabela de base</SCRTEXT_M>
+     <SCRTEXT_L>Tabela de base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Bázová tabuľka view</DDTEXT>
+     <REPTEXT>Bázová tabuľka</REPTEXT>
+     <SCRTEXT_S>Báz.tab.</SCRTEXT_S>
+     <SCRTEXT_M>Bázová tabuľka</SCRTEXT_M>
+     <SCRTEXT_L>Bázová tabuľka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Базисная таблица ракурса</DDTEXT>
+     <REPTEXT>Базисная таблица</REPTEXT>
+     <SCRTEXT_S>БазТабл</SCRTEXT_S>
+     <SCRTEXT_M>БазиснТаблица</SCRTEXT_M>
+     <SCRTEXT_L>Базисная таблица</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tabla básica de una vista</DDTEXT>
+     <REPTEXT>Tabla básica</REPTEXT>
+     <SCRTEXT_S>Tab.bás.</SCRTEXT_S>
+     <SCRTEXT_M>Tabla básica</SCRTEXT_M>
+     <SCRTEXT_L>Tabla básica</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>묩</DDLANGUAGE>
+     <DDTEXT>एक दृश्य की आधार तालिका</DDTEXT>
+     <REPTEXT>आधार तालिका</REPTEXT>
+     <SCRTEXT_S>आधार ता.</SCRTEXT_S>
+     <SCRTEXT_M>आधार तालिका</SCRTEXT_M>
+     <SCRTEXT_L>आधार तालिका</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>基于一个或多个基础表的视图、锁定对象或匹配码对象。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>视图字段或匹配码和锁定对象字段以及选择条件只能参考基础表字段。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>在数据库视图中，多个基础表通过可自由定义的连接条件链接在一起。对于所有其</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>它视图，使用表间的外键关系，通过匹配码和锁定对象对这些视图进行定义。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>C</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>C</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>View, objekt blokování nebo objekt match-kódu založený na jedné nebo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>více bázových tabulkách.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Pole view resp. pole objektu match-kódu a pole objektů blokování,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>stejně jako podmínky výběru, se smí vztahovat jen k polím bázových</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tabulek.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Spojení více tabulek se u databázových view provádí pomocí volně</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>definovatelných podmínek join, u všech ostatních view, u match-kódů a u</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objektů blokování pomocí vztahů externích klíčů mezi tabulkami.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ein View, Sperrobjekt oder Matchcode-Objekt basiert auf einer oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mehrerer Basistabellen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Viewfelder bzw. Matchcode- und Sperrobjektfelder sowie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Selektionsbedingungen dürfen sich nur auf Felder der Basistabellen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>beziehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Verknüpfung mehrerer Basistabellen geschieht bei Datenbankviews</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>über die frei definierbaren Joinbedingungen, bei allen anderen Views</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bei Matchcodes und bei Sperrobjekten über Fremdschlüsselbeziehungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zwischen den Tabellen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A view, lock object or matchcode object based on one or more base</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tables.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>View fields or matchcode and lock object fields as well as selection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>conditions may only refer to fields of the base tables.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In database views, several base tables are linked with freely definable</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>join conditions. For all other views they are defined with matchcodes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and lock objects with foreign key relationships between the tables.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Une vue, un objet de blocage ou de matchcode se base sur une ou</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>plusieurs tables de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Les zones de vues, de mathcodes ou d&apos;objets de blocage ainsi que les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>conditions de sélection ne peuvent se baser que sur des zones des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tables de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La liaison de plusieurs tables de base s&apos;effectue pour les vues de base</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de données via les conditions de jointure librement paramétrables, pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>toutes les autres vues, pour les marchcodes et pour les objets de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>blocage via les liaisons de clés externes entre les tables.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Una view, un oggetto di blocco o un oggetto matchcode si basano su una</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>o più tabelle di base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>I campi view, i campi matchcode, i campi oggetto di blocco nonché le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condizioni di selezione possono fare riferimento solamente ai campi</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>delle tabelle di base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Per quanto riguarda le view database il collegamento di più tabelle di</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>base viene realizzato tramite condizioni join, liberamente definibili</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dall&apos;utenza. Nel caso delle altre view, dei matchcode e degli oggetti</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>di blocco il collegamento viene realizzato tramite relazioni chiave</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>esterna tra le tabelle.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>基本テーブル (複数も可) を基にした１つのビュー、ロックオブジェクト、また</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>はマッチコードオブジェクト</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>ビュー項目、マッチコード項目、ロックオブジェクト項目、および selection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> 条件では、基本テーブル項目の照会のみが可能です。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>データベースビューでは、自由に定義できる join 条件を使用して複数の基本テ</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ーブルをリンクすることができます。データベース以外のビューでは、テーブル</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>間の外部キー関係を使用し、マッチコードおよびロックオブジェクトによってビ</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ューを定義します。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Uma visão, objeto de bloqueio ou objeto de matchcode são baseados em</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>uma ou várias tabelas de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campos de visão ou campos de objetos de matchcode ou de bloqueio, assim</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>como condições de seleção, devem fazer referência somente a campos das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tabelas de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A ligação de várias tabelas de base é efetuada em visões de banco de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dados através de condições de join definidas livremente; em todas as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>outras visões, em matchcodes e em objetos de bloqueio através de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relações de chave externa entre as tabelas.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZMDS_VIBASTAB</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMDS_VIBASTAB</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Una vista, un objeto de bloqueo o un objeto matchcode se basa en varias</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tablas básicas.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Campos de vista o campos matchcode y bloqueo y condiciones de selección</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pueden hacer referencia sólo a campos de la tablas básicas.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El enlace de varias tablas básicas se realiza para vistas de bancos de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>datos mediante las condiciones de conexión que se pueden definir</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>libremente, para todas las otras vistas de matchcodes y objetos de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bloqueo mediante relaciones de claves externas entre las tablas.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
